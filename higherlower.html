@@ -1,0 +1,39 @@
+<!--David W Cleghorn Dev10 Introduction to Web Development Summative Assesment
+  Thursday, January 5, 2023
+  Please let me know if you need anything else. I did not include any CSS or additional HTML
+  since there was no mention. If there are any bugs, please let me know. Thanks! Have a great day.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <title>Higher - Lower</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Higher Lower</h1>
+        
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label>Your guess:</label>
+                        <input type="text" id="guess" class="form-control">
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="do_guess()">Guess</button>
+                </form>
+            </div>
+        </div>
+        <p id="message"></p>
+    </div>	
+    <script src="higherlower.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
